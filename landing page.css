@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.center-text {
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: large;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+.content-section {
+    display: flex;
+}
+
+.left-container {
+    width: 50%;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.right-container {
+    width: 50%;
+    padding: 20px;
+}
+
+.message {
+    font-size: x-large;
+    font-weight: 900;
+    color: black;
+}
+
+input {
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: large;
+}
+
+.buttons {
+    display: flex;
+}
+
+.B1,
+.B2 {
+    font-size: x-large;
+    flex: 1;
+    border: none;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+    transition: 0.5s ease-in;
+}
+
+.B1:hover,
+.B2:hover {
+    background-color: whitesmoke;
+    color: black;
+}

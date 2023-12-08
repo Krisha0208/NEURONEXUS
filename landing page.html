@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pawsibble</title>
+    <link rel="stylesheet" type="text/css" href="landing_page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('../image/dogss.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .center-text {
+            padding: 20px;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            width: 100%; /* Make the header full-width */
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        nav li {
+            float: left;
+        }
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav li a:hover {
+            background-color: #111;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .left {
+            flex: 1;
+            padding: 20px;
+        }
+        .right {
+            flex: 1;
+            padding: 20px;
+        }
+        .C1, .C2, .C3 {
+            margin-bottom: 10px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+        .btn {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-text">
+        <h1>PAWSIBBLE</h1>
+    </div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Adopt Now</a></li>
+                <li><a href="#">Customer Service</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="left">
+                <div class="message">
+                    <h2>Keeping pets happy and healthy is POSSIBLE with PAWSIBBLE</h2>
+                    <p>Money can buy you a fine dog, but only love can make him wag his tail.</p>
+                    <p><strong>WHY US:</strong> So you're considering introducing a pet into your life. It's an exciting and life-changing decision, but one that shouldn't be made half-heartedly. There is so much to think about it. At Pawsibble, we treat and care for animals who have no one else to turn to. While some animals have loving homes to return to and others can safely rejoin the community, many need extra care, attention, and a new home. They may be older, have lost a limb, or simply be unable to fend for themselves. No matter the reason, we help them find the perfect place to call home.</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="content">
+                    <div class="C1">
+                        <input type="text" placeholder="Enter Username">
+                    </div>
+
+                    <div class="C2">
+                        <input type="email" placeholder="Enter email">
+                    </div>
+
+                    <div class="C3">
+                        <input type="password" placeholder="Enter password">
+                    </div>
+
+                    <div class="buttons">
+                        <div class="B1">
+                            <a class="btn" href="#">SIGN IN</a>
+                        </div>
+                        <div class="B2">
+                            <a class="btn" href="#">LOGIN</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
